@@ -1,0 +1,85 @@
+form {
+    width: 100px;
+    margin: 20px auto;
+    position: center;
+}
+
+input {
+    width: 150px;
+    height: 50;
+    padding: 10px;
+    background-color: rgb(151, 239, 245);
+    position: center;
+}
+
+body {
+    background-image: url(https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png);
+    background-size: 1400px 900px;
+}
+
+.titulo {
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Chalkduster', fantasy;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 900px;
+    border-radius: 20px;
+    color: rgb(80, 2, 2);
+    text-align: center;
+    padding: 60px;
+    margin: 0 auto;
+    background-color: rgb(117, 185, 248);
+    border: 10px dashed rgb(255, 66, 66);
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(rgb(25, 9, 114) 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+    /*El -1 se usa para que se pueda poner debajo de nuestra pokedex*/
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.poke-types div {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 4px dashed rgb(228, 34, 34);
+}
+
+.poke-img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.pie {
+    background-color: rgb(168, 200, 243);
+}

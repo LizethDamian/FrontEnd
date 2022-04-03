@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Pedidos</title>
+        </head>
+    <body>
+        <img src="C:\Users\Lizeth\Documents\LaunchX\frontend\HTML PRACTICA\CakeBoom.png" alt="Logo CakeBoom" width="150px"><br>
+        <h1>Favor de llenar el formulario</h1>
+   <form action="pedido.js">
+       <label for="Nombre">Ingrese su nombre: </label> <br>
+       <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+       <label for="telefono">Ingrese su No.Telefono</label><br>
+    <input type="tel" id="telefono" name="telefono" maxlength="10"><br><br>
+    <label for="correo1">Ingrese su Correo electronico</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+    <label for="Fecha">Fecha preferente de entrega</label><br>
+    <input type="date" id="Fecha" name="Fecha"><br><br>
+    <hr>
+
+    <p>Favor de seleccionar su pastel</p>  
+    <label for="Pasteles1">PlutonCake</label>
+    <input type="checkbox" id="Pasteles1" name="Pasteles1" value="Pasteles1"><br>
+
+    <label for="Pasteles2">EarthCake</label>
+    <input type="checkbox" id="Pasteles2" name="Pasteles2" value="Pasteles2"><br>
+    <label for="Pasteles3">GalacCake</label>
+    <input type="checkbox" id="Pasteles3" name="Pasteles3" value="Pasteles3"><br>
+    <label for="Pasteles4">BoomCake</label>
+    <input type="checkbox" id="Pasteles4" name="Pasteles4" value="Pasteles4"><br>
+    <label for="Pasteles5">MultiuniversCake</label>
+    <input type="checkbox" id="Pasteles5" name="Pasteles5" value="Pasteles5"><br>
+   <hr> 
+
+    <p>Selecciona tus toppings</p>
+    
+    <label for="Toppings">Fresa</label>
+    <input type="checkbox" id="Toppings" name="Toppings" value="Toppings"><br>
+    <label for="Toppings1">Durazno</label>
+    <input type="checkbox" id="Toppings1" name="Toppings1" value="Toppings1"><br>
+    <label for="Toppings2">Uva</label>
+    <input type="checkbox" id="Toppings2" name="Toppings2" value="Toppings2"><br>
+    <label for="Toppings3">Frutos rojos</label>
+    <input type="checkbox" id="Toppings3" name="Toppings3" value="Toppings3"><br>
+    <label for="Toppings4">Nuez</label>
+    <input type="checkbox" id="Toppings4" name="Toppings4" value="Toppings4"><br>
+    <label for="Toppings5">Almendra</label>
+    <input type="checkbox" id="Toppings5" name="Toppings5" value="Toppings5"><br>
+    <label for="Toppings6">Arandano</label>
+    <input type="checkbox" id="Toppings6" name="Toppings6" value="Toppings6"><br>
+    <label for="Toppings7">Zarzamora</label>
+    <input type="checkbox" id="Toppings7" name="Toppings7" value="Toppings7"><br>
+    <label for="Toppings8">Kinder delice</label>
+    <input type="checkbox" id="Toppings8" name="Toppings8" value="Toppings8"><br>
+    <label for="Toppings9">Kinder Bueno</label>
+    <input type="checkbox" id="Toppings9" name="Toppings9" value="Toppings9"><br>
+    <label for="Toppings10">M&M</label>
+    <input type="checkbox" id="Toppings10" name="Toppings10" value="Toppings10"><br>
+    <label for="Toppings11">Ferrero</label>
+    <input type="checkbox" id="Toppings11" name="Toppings11" value="Toppings11"><br>
+
+    <br><br>
+    <hr>
+    
+    
+    <p>Elige tu decorado</p>
+    <select name="Decorado" id="Decorado">
+        <option value="Sencillo">Sencillo</option>
+        <option value="espacial">Espacial</option>
+        <option value="Espacial Boom">Espacial Boom</option>
+        <option value="Espacial Plus">Espacial Plus</option>
+
+    </select>
+    <hr>
+    <label for="archivo">Favor de Cargar su comprobante de pago</label><br><br>
+    <input type="file" id="archivo" name="archivo"><br><br>
+    <label for="archivo1">Si tiene algún diseño en mente favor de cargar la imagen:</label><br><br>
+    <input type="file" id="archivo1" name="archivo1"><br><br>
+    <input type="reset" onclick="alert('Al poner aceptar, se borraran los datos')">
+    <input type="button" id="Pedido" name="Pedido" value="Realizar Pedido" onclick="alert('Su pedido se esta elaborando! Recibira un correo electronico con las indicaciones de entrega :)');"><br>
+   </form>
+
+    </body>
+    <hr>
+<footer>
+    <p>Dirección: Col. Impulsora, CP.57130, Calle Magnolias #130, Nezahualcoyotl, Estado de México</p>
+    <p>Telefono: 5512489656</p>
+    <p>Horarios de atención: Lun-Vie de 8am - 8pm Sab-Dom de 10am - 2pm</p>
+</footer>
+</html>
